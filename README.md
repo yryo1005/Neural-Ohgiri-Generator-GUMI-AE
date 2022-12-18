@@ -57,7 +57,7 @@ Neural_Oh-giri_Generator_v1
 
 ├ bokete_data.json
 
-├　bokete_image
+├ bokete_image
 
 &emsp;├ 4.jpg
 
