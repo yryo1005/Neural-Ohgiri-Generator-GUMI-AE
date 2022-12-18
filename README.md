@@ -4,13 +4,26 @@ Pix2SeqとAutoEncoderを用いて画像から大喜利を生成するAIを作成
 
 ## 必要ライブラリ
 
-  numpy==1.23.4
-  
-  tensorflow==2.10.0
-  
-  scikit-learn==1.1.3
-  
-  tqdm==4.64.1
+numpy==1.23.4
+
+tensorflow==2.10.0
+
+scikit-learn==1.1.3
+
+tqdm==4.64.1
  
 
 ## モデル, データのダウンロード
+
+[画像のエンコーダ](URL)
+
+[大喜利の生成器](URL)
+
+[語彙データ](URL)
+
+[Boketeの画像データ](URL)
+
+[Boketeの大喜利データ](URL)
+
+[学習に使用したデータ](URL)
+
