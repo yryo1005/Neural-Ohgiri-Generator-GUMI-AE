@@ -1,4 +1,4 @@
-# Neural_Oh-giri_Generator_v1
+# Neural_Oh!giri_Generator_v1
 
 Pix2SeqとAutoEncoderを用いて画像から大喜利を生成するAIを作成しました
 
