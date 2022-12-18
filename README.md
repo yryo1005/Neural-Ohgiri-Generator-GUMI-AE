@@ -28,11 +28,13 @@ scikit-learn==1.2.0
 
 ### ボケてのデータをスクレイピングする場合
 
-pip install scrapy==1.5.0
+scrapy関連はversionがうるさいので注意
 
-pip install Twisted==21.7.0
+scrapy==1.5.0
 
-pip install pyopenssl==22.0.0 
+Twisted==21.7.0
+
+pyopenssl==22.0.0 
 
 ## モデル, データのダウンロード
 
