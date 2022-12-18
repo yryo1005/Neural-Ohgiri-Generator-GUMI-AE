@@ -59,11 +59,11 @@ Neural_Oh-giri_Generator_v1
 
 ├bokete_image
 
- ├ 4.jpg
+  ├ 4.jpg
 
- ├ 5.jpg
+  ├ 5.jpg
 
-...
+  ...
 
 ## 大喜利を生成する
 
