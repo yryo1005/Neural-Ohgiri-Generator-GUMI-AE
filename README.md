@@ -22,6 +22,7 @@ tqdm==4.64.1
 [語彙データ](URL)
 
 [Boketeの画像データ](URL)
+(ダウンロード後解凍してください)
 
 [Boketeの大喜利データ](URL)
 
@@ -31,4 +32,13 @@ tqdm==4.64.1
 
 Neural_Oh-giri_Generator_v1
 
-├
+├ generate_boke.ipynb
+
+├ dist_encoder.h5
+
+├ dist_generator.h5
+
+├ accepted_numbers.json
+
+├ word_to_index.json
+
