@@ -17,16 +17,16 @@ tqdm==4.64.1
 
 ## モデル, データのダウンロード
 
-[画像のエンコーダ](URL)
+[画像のエンコーダ](https://drive.google.com/file/d/1VL3Gyr91_LSSVPyHknY4RnZMfy6Z8PZu/view?usp=share_link)
 
-[大喜利の生成器](URL)
+[大喜利の生成器](https://drive.google.com/file/d/1zxl9RC8dZFF4hYltz4V5AkHqgQTDZ8tf/view?usp=share_link)
 
-[語彙データ](URL)
+[語彙データ](https://drive.google.com/file/d/1TelxXPss39oHVkOlEpGvmbCgQrsQMMib/view?usp=share_link)
 
-[Boketeの画像データ](URL)
+[Boketeの画像データ](https://drive.google.com/file/d/1JJxKH7oYjtbjDebvMCyq15WWmklSHSvE/view?usp=share_link)
 (ダウンロード後解凍してください)
 
-[Boketeの大喜利データ](URL)
+[Boketeの大喜利データ](https://drive.google.com/file/d/1_cKPz-zfRphi9oa7wTMV_ilyaBbkqCs5/view?usp=share_link)
 
 [学習に使用したデータ](https://drive.google.com/file/d/1G6HkNVT-OX7mhvutLt7HYuIU_k0a9JWm/view?usp=share_link)
 
