@@ -68,4 +68,6 @@ bokete_image
 generate_boke.ipynbを開き, 上から順に実行してください.
 
 
-[] 推論
+[ ] 推論
+
+[ ] 学習
