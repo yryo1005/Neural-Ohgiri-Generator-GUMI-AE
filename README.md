@@ -57,13 +57,13 @@ Neural_Oh-giri_Generator_v1
 
 ├ bokete_data.json
 
-├bokete_image
+├　bokete_image
 
 &emsp;├ 4.jpg
 
 &emsp;├ 5.jpg
 
-&emsp;...
+&emsp;&emsp;...
 
 ## 大喜利を生成する
 
