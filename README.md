@@ -18,12 +18,21 @@ numpy==1.23.5
 
 matplotlib==3.6.2
 
-scikit-learn==1.2.0
-
 tqdm==4.64.1
 
 ipykernel==6.15.2
- 
+
+# 学習を行う場合
+
+scikit-learn==1.2.0
+
+# ボケてのデータをスクレイピングする場合
+
+pip install scrapy==1.5.0
+
+pip install Twisted==20.3.0
+
+pip install pyopenssl==22.0.0 
 
 ## モデル, データのダウンロード
 
@@ -81,4 +90,12 @@ generate_boke_from_image関数は, 引数に指定したパスの画像に対し
 
 ## データのスクレイピング
 
+m1チップのMacはScrapyが非対応のため, GoogleColab等で実行してください.
+
+以下のコマンドを実行
+
+'''
+cd scraping_project/bokete_scrape/spiders
+
 scrapy crawl bokete_basic -o test.json
+'''
