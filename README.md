@@ -28,7 +28,7 @@ tqdm==4.64.1
 
 [Boketeの大喜利データ](URL)
 
-[学習に使用したデータ]([URL](https://drive.google.com/file/d/1G6HkNVT-OX7mhvutLt7HYuIU_k0a9JWm/view?usp=share_link))
+[学習に使用したデータ](https://drive.google.com/file/d/1G6HkNVT-OX7mhvutLt7HYuIU_k0a9JWm/view?usp=share_link)
 
 上記のデータをダウンロードして次のように配置してください
 
