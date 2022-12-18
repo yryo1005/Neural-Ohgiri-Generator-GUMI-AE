@@ -22,22 +22,22 @@ ipykernel==6.15.2
 ## モデル, データのダウンロード
 
 [画像のエンコーダ](https://drive.google.com/file/d/1VL3Gyr91_LSSVPyHknY4RnZMfy6Z8PZu/view?usp=share_link)
-(新たにモデルを訓練する場合, 不要.)
+(新たにモデルを訓練する場合不要.)
 
 [大喜利の生成器](https://drive.google.com/file/d/1zxl9RC8dZFF4hYltz4V5AkHqgQTDZ8tf/view?usp=share_link)
-(新たにモデルを訓練する場合, 不要.)
+(新たにモデルを訓練する場合不要.)
 
 [語彙データ](https://drive.google.com/file/d/1TelxXPss39oHVkOlEpGvmbCgQrsQMMib/view?usp=share_link)
-(新たにモデルを訓練する場合, 不要.)
+(新たにモデルを訓練する場合不要.)
 
 [Boketeの画像データ](https://drive.google.com/file/d/1JJxKH7oYjtbjDebvMCyq15WWmklSHSvE/view?usp=share_link)
-(ダウンロード後解凍してください. データをスクレイピングする場合, 不要.)
+(ダウンロード後解凍してください. データをスクレイピングする場合不要.)
 
 [Boketeの大喜利データ](https://drive.google.com/file/d/1_cKPz-zfRphi9oa7wTMV_ilyaBbkqCs5/view?usp=share_link)
-(データをスクレイピングする場合, 不要.)
+(データをスクレイピングする場合不要.)
 
 [学習に使用したデータ](https://drive.google.com/file/d/1G6HkNVT-OX7mhvutLt7HYuIU_k0a9JWm/view?usp=share_link)
-(データをスクレイピングする場合, 不要.)
+(新たにモデルを訓練する場合不要.)
 
 上記のデータをダウンロードして次のように配置してください
 
@@ -66,3 +66,6 @@ bokete_image
 ## 大喜利を生成する
 
 generate_boke.ipynbを開き, 上から順に実行してください.
+
+
+[] 推論
