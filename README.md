@@ -40,5 +40,14 @@ Neural_Oh-giri_Generator_v1
 
 ├ accepted_numbers.json
 
-├ word_to_index.json
+└ word_to_index.json
 
+bokete_data.json
+
+bokete_image
+
+├ 4.jpg
+
+├ 5.jpg
+
+...
