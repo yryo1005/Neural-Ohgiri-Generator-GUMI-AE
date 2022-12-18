@@ -8,6 +8,8 @@ Pix2SeqとAutoEncoderを用いて画像から大喜利を生成するAIを作成
 
 tensorflow==2.11.0
 
+(モデルが大容量なのでGPUは使わない方がいいかもしれません)
+
 numpy==1.23.5
 
 matplotlib==3.6.2
