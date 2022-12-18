@@ -59,9 +59,9 @@ Neural_Oh-giri_Generator_v1
 
 ├bokete_image
 
-  ├ 4.jpg
+&nbsp├ 4.jpg
 
-  ├ 5.jpg
+&nbsp├ 5.jpg
 
   ...
 
