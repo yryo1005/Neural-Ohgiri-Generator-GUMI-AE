@@ -48,7 +48,7 @@ Neural_Oh-giri_Generator_v1
 
 ├ word_to_index.json
 
-bokete_data.json
+├ bokete_data.json
 
 bokete_image
 
