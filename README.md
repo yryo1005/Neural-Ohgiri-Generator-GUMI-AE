@@ -51,11 +51,11 @@ Neural_Oh-giri_Generator_v1
 
 ├ dist_generator.h5
 
-├ accepted_numbers.json
+├ dist_accepted_numbers.json
 
-├ word_to_index.json
+├ dist_word_to_index.json
 
-├ bokete_data.json
+├ dist_bokete_data.json
 
 ├ bokete_image
 
@@ -69,6 +69,9 @@ Neural_Oh-giri_Generator_v1
 
 generate_boke.ipynbを開き, 上から順に実行してください.
 
+generate_boke関数は, 学習に使用したboketeの画像からランダムに選んで大喜利を生成します(引数にボケ番号を与えた場合, その番号の画像に対し大喜利を生成します).
+
+generate_boke_from_image関数は, 引数に指定したパスの画像に対し大喜利を生成します.
 
 - [X] 推論
 - [ ] データのスクレイピング
