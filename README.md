@@ -6,6 +6,8 @@ Pix2SeqとAutoEncoderを用いて画像から大喜利を生成するAIを作成
 
 numpy==1.23.4
 
+matplotlib==3.6.2
+
 tensorflow==2.10.0
 
 scikit-learn==1.1.3
@@ -40,7 +42,7 @@ Neural_Oh-giri_Generator_v1
 
 ├ accepted_numbers.json
 
-└ word_to_index.json
+├ word_to_index.json
 
 bokete_data.json
 
@@ -51,3 +53,7 @@ bokete_image
 ├ 5.jpg
 
 ...
+
+## 大喜利を生成する
+
+generate_boke.ipynbを開き, 上から順に実行してください.
