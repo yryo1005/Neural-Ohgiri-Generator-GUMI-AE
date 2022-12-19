@@ -96,7 +96,7 @@ generate_boke_from_image関数は, 引数に指定したパスの画像に対し
 
 m1チップのMacはScrapyが非対応のため, GoogleColab等で実行してください.
 
-1. ボケてからデータを取得
+### 1. ボケてからデータを取得
 
 以下のコマンドを実行
 
@@ -116,6 +116,6 @@ scrapy crawl bokete_basic -o test.json
 
 の, END_NUMの値を変更してください(デフォルトでは100000になっています)
 
-2.
+### 2.
 
 規定数スクレイピングが出来たら, 
