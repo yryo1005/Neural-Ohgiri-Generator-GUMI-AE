@@ -110,6 +110,6 @@ scrapy crawl bokete_basic -o test.json
 
 スクレイピングするお題の数を指定する場合, 
 
-scraping_project/bokete_scrape/spiders/bokete_basic.py
+[scraping_project/bokete_scrape/spiders/bokete_basic.py](https://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/scraping_project/bokete_scrape/spiders/bokete_basic.py)
 
 の, END_NUMの値を変更してください(デフォルトでは100000になっています)
