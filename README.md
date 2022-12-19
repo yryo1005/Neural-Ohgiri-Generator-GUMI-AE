@@ -64,6 +64,7 @@ pyopenssl==22.0.0
 
 ```
 Neural_Oh-giri_Generator_v1
+├── bokete_image_annotations.csv
 ├── generate_boke.ipynb
 ├── dist_encoder.h5
 ├── dist_generator.h5
