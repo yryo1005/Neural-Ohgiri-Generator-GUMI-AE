@@ -1,10 +1,17 @@
 import scrapy
+import os
+import json
 
 # スクレイピングを始める初めのボケ番号
-START_NUM = 1
+if os.path.exists("test.json"):
+    with open("test.json", "r", encoding = "utf-8") as f:
+        a = f.readlines()
+    START_NUM = json.loads(a[-2].replace("\n", ""))["boke_number"]
+else:
+    START_NUM = 1
 
 # スクレイピングを終える終わりのボケ番号
-END_NUM = 5
+END_NUM = 100000
 
 class BoketeBasicSpider(scrapy.Spider):
     name = 'bokete_basic'
@@ -16,45 +23,27 @@ class BoketeBasicSpider(scrapy.Spider):
     def parse(self, response):
 
         #　存在しないページにアクセスしているか確認
-        tmp = response.xpath("//div[@class='en-message']")
-        tmp = tmp.xpath("./text()").get()
+        is_nopage = response.xpath("//div[@class='en-message']").xpath("./text()").get()
 
-        if tmp is not None:
-            # 存在しないページにアクセスしている場合、次のお題に移動
-            pass
-            # https://bokete.jp/odai/Y?page=X
-            # Y = Y + 1
+        if is_nopage is not None:
             now_url = response.request.url
-            tmp = now_url.split("/")
-            tmp = tmp[-1].split("?")
-            if int(tmp[0]) == 100:
+            now_number = int(now_url.split("/")[-1].split("?")[0])
+            if now_number == END_NUM:
                 pass
             else:
-                next_url = f"https://bokete.jp/odai/{int(tmp[0])+1}?page=1"
-
+                next_url = f"https://bokete.jp/odai/{now_number + 1}?page=1"
                 # 次のページに移動
                 yield response.follow(url = next_url, callback = self.parse)
         
         else:
-            # imgタグにタグを限定, すべてのimgタグをリスト化
-            # 一番初めのボケクラスはお題の画像とカテゴリ・ラベル等の情報を含む
-            tmp = response.xpath('k')[0]
-            
+            now_url = response.request.url
+            now_number = int(now_url.split("/")[-1].split("?")[0])
+
             # 画像のソースを取得
-            img_src = "https:" + tmp.xpath("./div/div/a/img/@src").get()
+            img_src = "https:" + response.xpath('//*[@id="content"]/div[1]/div[1]/div/div/a/img/@src').get()
 
             # お題のカテゴリを取得
-            category = tmp.xpath("./div/div/div[2]/a[3]/text()").get()
-
-            # お題のラベルを取得
-            labels = []
-            tmp_label = tmp.xpath("./div/div/div[3]/a")
-            for T in tmp_label:
-                # ラベル
-                l = T.xpath("./text()").get()
-                # 投票率
-                p = T.xpath("./small/text()").get()
-                labels.append([l, p])
+            category = response.xpath('//*[@id="content"]/div[1]/div[1]/div/div/div[2]/a[3]/text()').get()
 
             # 全てのボケを取得
             bokes = []
@@ -62,9 +51,7 @@ class BoketeBasicSpider(scrapy.Spider):
             for T in tmp_boke:
                 # ボケの文章を取得
                 b = T.xpath("./a[@class='boke-text']/div/text()").get()
-                # ボケの評価を取得したい！
-                e = T.xpath("./div[2]/div/div/div[@class='boke-stars']/a/text()").get()
-                bokes.append([b, e])
+                bokes.append(b)
 
             # ページのボケ数が０の時、そのお題のボケは全てスクレイプできているので次のお題に移動
             if len(bokes) == 0:
@@ -86,10 +73,10 @@ class BoketeBasicSpider(scrapy.Spider):
             # 同じお題の次のページに移動
             else:
                 yield{
+                    "boke_number" : now_number,
                     "page_url" : response.request.url, 
                     "img_src" : img_src,
                     "category" : category,
-                    "labels[ラベル, 投票率]" : labels,
                     "bokes[ボケ, ボケの評価（現状不可）]" : bokes,
                 }
                 
