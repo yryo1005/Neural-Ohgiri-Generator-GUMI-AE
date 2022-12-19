@@ -82,7 +82,7 @@ Neural_Oh-giri_Generator_v1
 
 ## 大喜利を生成する
 
-generate_boke.ipynbを開き, 上から順に実行してください.
+[generate_boke.ipynb](https://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/generate_boke.ipynb)を開き, 上から順に実行してください.
 
 新たにAIを学習する場合, 適時モデル等のパスを変更してください.
 
@@ -91,6 +91,8 @@ generate_boke関数は, 学習に使用したboketeの画像からランダム�
 generate_boke_from_image関数は, 引数に指定したパスの画像に対し大喜利を生成します.
 
 ## データのスクレイピング
+
+100000件以上データを必要としない場合, 配布しているファイルを使用する方が早いです.
 
 m1チップのMacはScrapyが非対応のため, GoogleColab等で実行してください.
 
@@ -113,3 +115,7 @@ scrapy crawl bokete_basic -o test.json
 [scraping_project/bokete_scrape/spiders/bokete_basic.py](https://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/scraping_project/bokete_scrape/spiders/bokete_basic.py)
 
 の, END_NUMの値を変更してください(デフォルトでは100000になっています)
+
+2.
+
+規定数スクレイピングが出来たら, 
