@@ -6,7 +6,7 @@ import json
 if os.path.exists("test.json"):
     with open("test.json", "r", encoding = "utf-8") as f:
         a = f.readlines()
-    START_NUM = json.loads(a[-2].replace("\n", ""))["boke_number"]
+    START_NUM = json.loads(a[-2].replace("\n", ""))["boke_number"] + 1
 else:
     START_NUM = 1
 
