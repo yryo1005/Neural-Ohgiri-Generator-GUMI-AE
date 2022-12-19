@@ -1,5 +1,7 @@
 # Neural_Oh!giri_Generator_v1
 
+image.png
+
 Pix2SeqとAutoEncoderを用いて画像から大喜利を生成するAIを作成しました.
 
 本研究の特徴的な点は, Pix2Seqの画像のエンコーダとして, 事前学習済みの大規模画像認識モデルを用いる代わりに, AutoEncoderのエンコーダを用いているところです.
