@@ -118,4 +118,8 @@ scrapy crawl bokete_basic -o test.json
 
 ### 2. データ整形
 
-規定数スクレイピングが出来たら, 
+規定数スクレイピングが出来たら, 以下のコマンドを実行
+
+```
+python reshape_bokete_data.py
+```
