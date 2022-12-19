@@ -62,6 +62,7 @@ pyopenssl==22.0.0
 
 上記のデータをダウンロードして次のように配置してください
 
+```
 Neural_Oh-giri_Generator_v1
 
 ├ generate_boke.ipynb
@@ -83,6 +84,7 @@ Neural_Oh-giri_Generator_v1
 &emsp;├ 5.jpg
 
 &emsp;&emsp;...
+```
 
 ## 大喜利を生成する
 
@@ -147,10 +149,3 @@ AutoEncoderの学習の際, 学習データにアニメ画像やイラストな�
 - [ ] 画像の特徴を抽出
 ### 4. 大喜利生成器の学習
 - [ ] 大喜利生成器の学習
-
-```
-.
-├── xxx
-├── xxx
-└── README.md
-```
