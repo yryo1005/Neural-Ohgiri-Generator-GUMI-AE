@@ -123,3 +123,6 @@ scrapy crawl bokete_basic -o test.json
 ```
 python reshape_bokete_data.py
 ```
+
+## モデルを学習する
+### 1. AutoEncoderの学習
