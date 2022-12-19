@@ -84,7 +84,7 @@ Neural_Oh-giri_Generator_v1
 
 [generate_boke.ipynb](https://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/generate_boke.ipynb)を開き, 上から順に実行してください.
 
-新たにAIを学習する場合, 適時モデル等のパスを変更してください.
+新たにAIを学習した場合, 適時モデル等のパスを変更してください.
 
 generate_boke関数は, 学習に使用したboketeの画像からランダムに選んで大喜利を生成します(引数にボケ番号を与えた場合, その番号の画像に対し大喜利を生成します).
 
