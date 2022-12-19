@@ -40,6 +40,8 @@ pyopenssl==22.0.0
 
 ## モデル, データのダウンロード
 
+※　モデル, データの２次配布を禁じます.
+
 [画像のエンコーダ](https://drive.google.com/file/d/1VL3Gyr91_LSSVPyHknY4RnZMfy6Z8PZu/view?usp=share_link)
 (新たにモデルを訓練する場合不要)
 
