@@ -72,8 +72,8 @@ Neural_Oh-giri_Generator_v1
 ├─ dist_word_to_index.json
 ├─ dist_bokete_data.json
 ├─ bokete_image
-  ├─ 4.jpg
-  ├─ 5.jpg
+   ├─ 4.jpg
+   ├─ 5.jpg
       .
       .
 ```
