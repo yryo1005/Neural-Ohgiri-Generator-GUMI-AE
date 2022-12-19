@@ -99,5 +99,6 @@ m1チップのMacはScrapyが非対応のため, GoogleColab等で実行して�
 ```
 cd scraping_project/bokete_scrape/spiders
 
-scrapy crawl bokete_basic -o test.json
+scrapy crawl bokete_basic -o ../../../test.json
 ```
+scraping_project/bokete_scrape/spiders/bokete_basic.py
