@@ -137,11 +137,7 @@ python reshape_bokete_data.py
 ### 1. AutoEncoderの学習
 AutoEncoderの学習の際, 学習データにアニメ画像やイラストなど単調な画像が含まれると, 学習が上手くいきません.
 
-そのため, これらの画像を取り除いて学習します.
-
-目視でアニメ画像やイラストなど単調な画像でないと確認したもののリストがあるのでダウンロードして, train_autoencoder.ipynbと同じ階層のディレクトリに配置してください.
-
-[リスト](https://drive.google.com/file/d/1_HwAgnqpuY8jdTqpNvVr6wa34xlHUEtb/view?usp=share_link)
+そのため, これらの画像を取り除いて学習します（除外画像のリスト](https://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/bokete_image_annotations.csv)）.
 
 [train_autoencoder.ipynb](https://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/train_autoencoder.ipynb)を開き, 上から順に実行してください.
 
