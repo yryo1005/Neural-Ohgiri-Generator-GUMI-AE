@@ -94,11 +94,22 @@ generate_boke_from_image関数は, 引数に指定したパスの画像に対し
 
 m1チップのMacはScrapyが非対応のため, GoogleColab等で実行してください.
 
+1. ボケてからデータを取得
+
 以下のコマンドを実行
 
 ```
 cd scraping_project/bokete_scrape/spiders
 
-scrapy crawl bokete_basic -o ../../../test.json
+scrapy crawl bokete_basic -o test.json
 ```
+
+実行しているうちに403エラーで蹴られるので, その際は時間を空けて再度コマンドを実行してください
+
+途中で止まった場合も続きから再開するようにプログラムされています
+
+スクレイピングするお題の数を指定する場合, 
+
 scraping_project/bokete_scrape/spiders/bokete_basic.py
+
+の, END_NUMの値を変更してください(デフォルトでは100000になっています)
