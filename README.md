@@ -65,25 +65,25 @@ pyopenssl==22.0.0
 ```
 Neural_Oh-giri_Generator_v1
 
-├ generate_boke.ipynb
+├── generate_boke.ipynb
 
-├ dist_encoder.h5
+├── dist_encoder.h5
 
-├ dist_generator.h5
+├── dist_generator.h5
 
-├ dist_accepted_numbers.json
+├── dist_accepted_numbers.json
 
-├ dist_word_to_index.json
+├── dist_word_to_index.json
 
-├ dist_bokete_data.json
+├── dist_bokete_data.json
 
-├ bokete_image
+├── bokete_image
 
-&emsp;├ 4.jpg
+  ├── 4.jpg
 
-&emsp;├ 5.jpg
+  ├── 5.jpg
 
-&emsp;&emsp;...
+    ...
 ```
 
 ## 大喜利を生成する
