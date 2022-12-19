@@ -128,9 +128,11 @@ AutoEncoderの学習の際, 学習データにアニメ画像やイラストな�
 
 そのため, これらの画像を取り除いて学習します.
 
-boketeのデータを20000件, 目視でアニメ画像やイラストなど単調な画像でないと確認したもののリストをダウンロードしてください.
+目視でアニメ画像やイラストなど単調な画像でないと確認したもののリストがあるのでダウンロードして, train_autoencoder.ipynbと同じ階層のディレクトリに配置してください.
 
 [リスト](https://drive.google.com/file/d/1_HwAgnqpuY8jdTqpNvVr6wa34xlHUEtb/view?usp=share_link)
+
+train_autoencoder.ipynbを開き, 上から順に実行してください.
 
 ### 2. 2値分類AIの学習
 
