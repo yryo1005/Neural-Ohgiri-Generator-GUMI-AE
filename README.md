@@ -1,6 +1,6 @@
 # Neural_Oh!giri_Generator_v1
 
-![generate_smaple](http://i.imgur.com/Jjwsc.jpghttps://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/image.png?raw=true)
+![generate_smaple](https://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/image.png?raw=true)
 
 Pix2SeqとAutoEncoderを用いて画像から大喜利を生成するAIを作成しました.
 
