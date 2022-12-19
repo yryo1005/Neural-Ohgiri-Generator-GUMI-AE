@@ -124,6 +124,13 @@ python reshape_bokete_data.py
 
 ## モデルを学習する
 ### 1. AutoEncoderの学習
+AutoEncoderの学習の際, 学習データにアニメ画像やイラストなど単調な画像が含まれると, 学習が上手くいきません.
+
+そのため, これらの画像を取り除いて学習します.
+
+boketeのデータを20000件, 目視でアニメ画像やイラストなど単調な画像でないと確認したもののリストをダウンロードしてください.
+
+[リスト](https://drive.google.com/file/d/1_HwAgnqpuY8jdTqpNvVr6wa34xlHUEtb/view?usp=share_link)
 
 ### 2. 2値分類AIの学習
 
