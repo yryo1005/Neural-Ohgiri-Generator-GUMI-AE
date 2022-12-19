@@ -132,7 +132,7 @@ AutoEncoderの学習の際, 学習データにアニメ画像やイラストな�
 
 [リスト](https://drive.google.com/file/d/1_HwAgnqpuY8jdTqpNvVr6wa34xlHUEtb/view?usp=share_link)
 
-train_autoencoder.ipynbを開き, 上から順に実行してください.
+[train_autoencoder.ipynb](https://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/train_autoencoder.ipynb)を開き, 上から順に実行してください.
 
 ### 2. 2値分類AIの学習
 
