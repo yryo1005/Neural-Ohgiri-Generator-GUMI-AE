@@ -77,7 +77,7 @@ class BoketeBasicSpider(scrapy.Spider):
                     "page_url" : response.request.url, 
                     "img_src" : img_src,
                     "category" : category,
-                    "bokes[ボケ, ボケの評価（現状不可）]" : bokes,
+                    "bokes" : bokes,
                 }
                 
                 # https://bokete.jp/odai/Y?page=X
