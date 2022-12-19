@@ -124,3 +124,9 @@ python reshape_bokete_data.py
 
 ## モデルを学習する
 ### 1. AutoEncoderの学習
+
+### 2. 2値分類AIの学習
+
+### 3. 画像の特徴を抽出
+
+### 4. 大喜利生成器の学習
