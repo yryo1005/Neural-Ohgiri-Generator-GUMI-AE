@@ -1,4 +1,4 @@
-# Neural_Oh!giri_Generator_v1
+# Neural-Ohgiri-Generator-GUMI-AE
 
 ![generate_smaple](https://github.com/yryo1005/Neural_Oh-giri_Generator_v1/blob/main/image.png?raw=true)
 
